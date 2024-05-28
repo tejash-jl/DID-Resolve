@@ -30,7 +30,8 @@
                     "@container": "@list"
                     },
                 "gender": "schema:name",
-                "policyExpiresOn": "schema:name"
+                "policyExpiresOn": "schema:name",
+                "policyIssuedOn":"schema:name"
             }
         }
     }
