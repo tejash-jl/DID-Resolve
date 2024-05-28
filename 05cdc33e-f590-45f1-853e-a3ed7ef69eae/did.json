@@ -1,0 +1,26 @@
+{
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:tejash-jl.github.io:DID-Resolve:05cdc33e-f590-45f1-853e-a3ed7ef69eae",
+        "alsoKnownAs": [
+            "testUUID",
+            "test@gmail.com"
+        ],
+        "service": [],
+        "verificationMethod": [
+            {
+                "id": "did:web:tejash-jl.github.io:DID-Resolve:05cdc33e-f590-45f1-853e-a3ed7ef69eae#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:tejash-jl.github.io:DID-Resolve:05cdc33e-f590-45f1-853e-a3ed7ef69eae",
+                "publicKeyMultibase": "z6MkiZwy8M8E5VUCiPcEXoLnR6qZFXSQunk8aXBQndgoY2XZ"
+            }
+        ],
+        "authentication": [
+            "did:web:tejash-jl.github.io:DID-Resolve:05cdc33e-f590-45f1-853e-a3ed7ef69eae#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:tejash-jl.github.io:DID-Resolve:05cdc33e-f590-45f1-853e-a3ed7ef69eae#key-0"
+        ]
+    }
