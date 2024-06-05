@@ -24,6 +24,7 @@
 "degree": "${degree}",
 "university": "${university}",
 "studentId": "${studentId}",  
-"percentage": "${percentage}"
+"percentage": "${percentage}",
+  "type": "Person"
 }
 }
