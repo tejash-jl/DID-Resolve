@@ -1,0 +1,38 @@
+{
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:tejash-jl.github.io:DID-Resolve:e3596665-ebc8-4d59-9c7a-7b3b2df12f13",
+        "alsoKnownAs": [
+            "testUUID",
+            "test@gmail.com"
+        ],
+        "service": [
+            {
+                "id": "IdentityHub",
+                "type": "IdentityHub",
+                "serviceEndpoint": {
+                    "@context": "schema.identity.foundation/hub",
+                    "@type": "UserServiceEndpoint",
+                    "instance": [
+                        "did:test:hub.id"
+                    ]
+                }
+            }
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:web:tejash-jl.github.io:DID-Resolve:e3596665-ebc8-4d59-9c7a-7b3b2df12f13#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:tejash-jl.github.io:DID-Resolve:e3596665-ebc8-4d59-9c7a-7b3b2df12f13",
+                "publicKeyMultibase": "z6MkmBo8hf9w9ficHQRuUMH3YGxW6assPhugZpbHSquWuePF"
+            }
+        ],
+        "authentication": [
+            "did:web:tejash-jl.github.io:DID-Resolve:e3596665-ebc8-4d59-9c7a-7b3b2df12f13#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:tejash-jl.github.io:DID-Resolve:e3596665-ebc8-4d59-9c7a-7b3b2df12f13#key-0"
+        ]
+    }
