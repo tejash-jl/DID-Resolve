@@ -7,7 +7,7 @@
 {
 "@context": [
 "https://www.w3.org/2018/credentials/v1",
-"https://holashchand.github.io/test_project/insurance-context.json",
+"https://tejash-jl.github.io/DID-Resolve/contexts/insurance-context.json",
     {
       "LifeInsuranceCredential": {
       "@id":"InsuranceCredential"
