@@ -31,6 +31,7 @@
 "policyIssuedOn": "${policyIssuedOn}",
 "policyExpiresOn": "${policyExpiresOn}",
 "policyName": "${policyName}",
-"policyNumber": "${policyNumber}"
+"policyNumber": "${policyNumber}",
+"type": "Person"
 }
 }
