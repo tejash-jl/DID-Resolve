@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "VaccinationCredential": {
+            "@id": "schema:VaccinationCredential",
+            "@context": {
+                "id": "@id",
+                "@version": 1.1,
+                "@protected": true
+            }
+        },
+        "Person": {
+            "@id": "schema:Person",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "hospitalId": "schema:name",
+                "patientId": "schema:name",
+                "patientName": "schema:name",
+                "patientDoB": "schema:name",
+                "vaccineName": "schema:name",
+                "gender": "schema:name",
+                "mobile": "schema:name",
+                "email": "schema:name",
+                "vaccineIssuedOn":"schema:name"
+            }
+        }
+    }
+}
