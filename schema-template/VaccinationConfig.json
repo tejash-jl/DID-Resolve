@@ -17,6 +17,7 @@
 "expirationDate": "${date.format($ISO8601DateTimeWithMillisUTC, $calenderNow, $defaultLocale)}",
 "credentialSubject": {
 "hospitalId": "${hospitalId}",
+"UIN": "${patientId}",
 "patientId": "${patientId}",
 "patientName": "${patientName}",
 "patientDoB": "${patientDoB}",
