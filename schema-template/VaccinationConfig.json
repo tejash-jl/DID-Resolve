@@ -7,12 +7,7 @@
 {
 "@context": [
 "https://www.w3.org/2018/credentials/v1",
-"https://tejash-jl.github.io/DID-Resolve/contexts/vaccination-context.json",
-    {
-      "VaccinationCredential": {
-      "@id":"VaccinationCredential"
-      }
-    }
+"https://tejash-jl.github.io/DID-Resolve/contexts/vaccination-context.json"
 ],
 "type": [
 "VerifiableCredential",
