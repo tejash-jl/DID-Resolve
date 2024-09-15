@@ -25,6 +25,7 @@
 "mobile": "${mobile}",
 "email": "${email}",
 "vaccineIssuedOn": "${vaccineIssuedOn}",
-"type": "Person"
+"type": "Person",
+"hospitalName": "${hospitalName}"  
 }
 }
