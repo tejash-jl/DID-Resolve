@@ -20,6 +20,7 @@
                 "@protected": true,
                 "hospitalId": "schema:name",
                 "hospitalName": "schema:name",
+                "UIN": "schema:name",
                 "patientId": "schema:name",
                 "patientName": "schema:name",
                 "patientDoB": "schema:name",
