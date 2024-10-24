@@ -1,0 +1,34 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "GraduationCredential": {
+            "@id": "schema:GraduationCredential",
+            "@context": {
+                "id": "@id",
+                "@version": 1.1,
+                "@protected": true
+            }
+        },
+        "Person": {
+            "@id": "schema:Person",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "studentId": "schema:name",
+                "studentName": "schema:name",
+                "uid": "schema:name",
+                "degree": "schema:name",
+                "major": "schema:name",
+                "cgpa": "schema:name",
+                "gender": "schema:name",
+                "mobile": "schema:name",
+                "email": "schema:name",
+                "graduationDate":"schema:name"
+            }
+        }
+    }
+}
