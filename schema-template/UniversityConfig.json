@@ -17,7 +17,7 @@
 "expirationDate": "${date.format($ISO8601DateTimeWithMillisUTC, $calenderNow, $defaultLocale)}",
 "credentialSubject": {
 "major": "${major}",
-"UIN": "${UIN}",
+"UIN": "${studentDigitalId}",
 "studentId": "${studentId}",
 "studentName": "${studentName}",
 "cgpa": "${cgpa}",
