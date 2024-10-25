@@ -20,7 +20,7 @@
                 "@protected": true,
                 "studentId": "schema:name",
                 "studentName": "schema:name",
-                "studentDigitalId": "schema:name",
+                "UIN": "schema:name",
                 "degree": "schema:name",
                 "major": "schema:name",
                 "cgpa": "schema:name",
