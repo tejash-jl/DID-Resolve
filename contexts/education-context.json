@@ -21,6 +21,7 @@
                 "studentId": "schema:name",
                 "percentage": "schema:name",
                 "fullName": "schema:name",
+                "UIN": "schema:name",
                 "mobile": "schema:name",
                 "email": "schema:name",
                 "dob": "schema:name",
