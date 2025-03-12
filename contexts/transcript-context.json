@@ -1,28 +1,46 @@
 {
-    "@context": {
-        "@version": 1.1,
-        "@protected": true,
-        "id": "@id",
-        "type": "@type",
-        "schema": "https://schema.org/",
-        "TranscriptCredential": {
-            "@id": "schema:TranscriptCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "schema": "https://schema.org/",
+          "igovtt": "https://igovtt.github.io/schemas/",
+          "SkillCertificate":{
+            "@id": "igovtt:SkillCertificate",
             "@context": {
-                "id": "@id",
-                "@version": 1.1,
-                "@protected": true
+              "@version": 1.1,
+              "@protected": true
             }
-        },
-        "studentId": "schema:name",
-        "studentName": "schema:name",
-        "UIN": "schema:name",
-        "courses": {
-            "@id": "schema:course",
-            "@container": "@index"
-        },
-        "gender": "schema:name",
-        "mobile": "schema:name",
-        "email": "schema:name",
-        "registrationDate": "schema:name"
-    }
-}
+          },
+          "Student": {
+            "@id": "schema:Person",
+            "@context": {
+              "@version": 1.1,
+              "@protected": true,
+              "name": "schema:name",
+              "UIN": "schema:identifier",
+              "gender": "schema:gender",
+              "mobile": "schema:telephone",
+              "email": "schema:email",
+              "registrationDate": "schema:startDate"
+            }
+        
+          },
+          "Course": {
+            "@id": "schema:Course",
+            "@context": {
+              "@version": 1.1,
+              "@protected": true,
+              "name": "schema:name",
+              "level": "schema:educationalLevel",
+              "status": "schema:StatusEnumeration",
+              "expiryDate": "schema:expires",
+              "issuedDate": "schema:dateIssued"
+            }
+        
+          },
+          "student": "igovtt:Student",
+          "courses": "igovtt:Courses"
+        }
+      }
