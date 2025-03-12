@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "TranscriptCredential": {
+            "@id": "schema:TranscriptCredential",
+            "@context": {
+                "id": "@id",
+                "@version": 1.1,
+                "@protected": true
+            }
+        },
+        "studentId": "schema:name",
+        "studentName": "schema:name",
+        "UIN": "schema:name",
+        "courses": {
+            "@id": "schema:course",
+            "@container": "@index"
+        },
+        "gender": "schema:name",
+        "mobile": "schema:name",
+        "email": "schema:name",
+        "registrationDate": "schema:name"
+    }
+}
