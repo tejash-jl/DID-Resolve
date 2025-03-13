@@ -23,6 +23,7 @@
 "gender": "${gender}",
 "mobile": "${mobile}",
 "email": "${email}",
+"registrationDate": "${registrationDate}",
 "type": "Person"
 }
 }
