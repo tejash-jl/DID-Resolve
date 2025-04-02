@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "TranscriptCredential": {
+            "@id": "https://tejash-jl.github.io/DID-Resolve/contexts/graduation-context.json#TranscriptCredential"
+        },
+        "studentId": "schema:identifier",
+        "studentName": "schema:name",
+        "UIN": "schema:identifier",
+        "registrationDate":"schema:dateIssued"
+    }
+}
